@@ -9,5 +9,5 @@ Foram usadas as tecnologias:
 - HTML
 - CSS
 
-A IDE utilizada foi:
+IDE utilizada:
 - Visual Studio Code
