@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.center {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+.clear {clear: both;}
+
+header {
+  background-color: #3b5998;
+  padding: 8px 0;
+}
+
+.logo {
+  float: left;
+  color: white;
+}
+
+.logo h2 {
+  font-size: 36px;
+}
+
+form.form-login {
+  float: right;
+}
+
+.form-login .form-element {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.form-element p {
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+}
+
+.form-element input[type=email],
+.form-element input[type=password] {
+  margin-top: 4px;
+  width: 145px;
+  padding: 0 4px;
+  height: 24px;
+  border: 1px solid rgba(0,0,0,0.8);
+}
+
+.form-element input[type=submit] {
+  background-color: #4267b2;
+  color: white;
+  padding: 3px 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.form-element input[type=submit]:hover {
+  background-color: #3b5998;
+}
+
+section.main {
+  background: linear-gradient(white, #D3D8E8);
+  padding: 40px 0;
+}
+
+.img-rede p {
+  font-size: 20px;
+  color: #0e385f;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  word-spacing: -1px;
+  font-family: Roboto, sans-serif;
+}
+
+.img-rede {
+  float: left;
+  width: 60%;
+}
+
+.img-rede img, .img-rede p {
+  max-width: 80%;
+}
+
+.abrir-conta {
+  width: 40%;
+  float: left;
+}
+
+.abrir-conta h2 {
+  color: #333;
+  font-size: 38px;
+  font-family: Roboto, sans-serif;
+}
+
+.abrir-conta h3 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 8px;
+  font-weight: normal;
+  font-family: Roboto, sans-serif;
+}
+
+form.criar-conta {
+  margin-top: 10px;
+}
+
+.w50 {
+  width: 50%;
+  padding: 0 5px;
+  float: left;
+}
+
+.w100 {
+  width: 100%;
+  padding: 0 5px;
+  float: left;
+}
+
+form.criar-conta input {
+  width: 100%;
+  margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password] {
+height: 40px;
+padding-left: 10px;
+border: 1px solid #bdc7d8;
+border-radius: 6px;
+font-size: 18px;
+font-family: Roboto, sans-serif;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+form select.nascimento:focus {
+ outline: none;
+}
+
+form.criar-conta input[type=submit] {
+  background: linear-gradient(#67ae55, #578843);
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+  max-width: 200px;
+  font-size: 19px;
+}
+
+form .w100 h2 {
+  margin-top: 14px;
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+form select.nascimento {
+  float: left;
+  margin-top: 8px;
+  padding: 6px 4px;
+  border: 1px solid #bdc7d8;
+  background-color: white;
+}
+
+.input-radio {
+  margin: 10px;
+  float: left;
+}
+
+.input-radio>p {
+  display: inline-block;
+}
+
+.input-radio input[type=radio] {
+  width: auto !important;
+  display: inline-block;
+}
+
+section.linguas {
+  padding: 30px 0;
+  background-color: white;
+}
+
+section.linguas a {
+  padding-right: 10px;
+  color: #365899;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+section.linguas .selected-lingua {
+  color: #90949c;
+}
+
+section.linguas .center {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+section.linguas input[type=button] {
+  padding: 0 10px;
+  cursor: pointer;
+  border: 1px solid #ccd0d5;
+  background-color: white;
+  color: #4b4f56;
+  font-size: 16px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+section.linguas input[type=button]:hover {
+  background-color: #f5f6f7;
+  color: #4b4f56;
+}
+
+section.linguas .center:nth-child(2), section.linguas .center:nth-child(3){
+  border: 0;
+  padding: 10px 0;
+}
+
+section.linguas .center p {
+  font-size: 11px;
+  color: #90949c;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  form.form-login {
+    float: none;
+    margin-top: 17px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-login .form-element {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .form-element p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .form-element input[type=email],
+  .form-element input[type=password] {
+    margin-top: 4px;
+    width: 100%;
+    max-width: 320px;
+    padding-left: 3px;
+    height: 24px;
+    border: 1px solid rgba(0,0,0,0.8);
+  }
+
+  .form-element input[type=submit] {
+    width: 140px;
+  }
+
+  .img-rede {
+    display: none;
+  }
+
+  .abrir-conta {
+    width: 100%;
+  }
+}
